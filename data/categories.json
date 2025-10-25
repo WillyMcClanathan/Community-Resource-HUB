@@ -1,0 +1,65 @@
+[
+  {
+    "id": "food-essentials",
+    "name": "Food & Essentials",
+    "slug": "food-essentials",
+    "color": "#16a34a",
+    "icon": "utensils"
+  },
+  {
+    "id": "housing",
+    "name": "Housing & Shelter",
+    "slug": "housing",
+    "color": "#dc2626",
+    "icon": "home"
+  },
+  {
+    "id": "health-mental",
+    "name": "Health & Mental Health",
+    "slug": "health-mental",
+    "color": "#2563eb",
+    "icon": "heart-pulse"
+  },
+  {
+    "id": "youth-family",
+    "name": "Youth & Family Services",
+    "slug": "youth-family",
+    "color": "#7c3aed",
+    "icon": "users"
+  },
+  {
+    "id": "seniors",
+    "name": "Senior Services",
+    "slug": "seniors",
+    "color": "#ea580c",
+    "icon": "user"
+  },
+  {
+    "id": "education-esl",
+    "name": "Education & ESL",
+    "slug": "education-esl",
+    "color": "#0891b2",
+    "icon": "book-open"
+  },
+  {
+    "id": "legal-immigration",
+    "name": "Legal & Immigration",
+    "slug": "legal-immigration",
+    "color": "#4f46e5",
+    "icon": "scale"
+  },
+  {
+    "id": "transportation",
+    "name": "Transportation",
+    "slug": "transportation",
+    "color": "#059669",
+    "icon": "bus"
+  },
+  {
+    "id": "recreation-events",
+    "name": "Recreation & Events",
+    "slug": "recreation-events",
+    "color": "#d97706",
+    "icon": "calendar"
+  }
+]
