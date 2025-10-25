@@ -299,7 +299,7 @@ This project was created for educational purposes as part of the TSA Webmaster E
 **School**: Mountlake Terrace High School
 **District**: Edmonds School District
 **Chapter**: MTHS TSA
-**Contact**: mths.tsa@example.edu
+**Contact**: xxxxx@example.edu
 
 Sample data is for demonstration only. Real community resources should be verified independently.
 
