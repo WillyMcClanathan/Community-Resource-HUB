@@ -312,7 +312,7 @@ We chose a neutral, professional palette instead of the typical purple/indigo:
 
 For questions during judging:
 
-**Team Email**: mths.tsa@example.edu
+**Team Email**: hello@neighborlyhub.org
 **School**: Mountlake Terrace High School
 **District**: Edmonds School District
 

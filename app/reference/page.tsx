@@ -360,24 +360,6 @@ export default function ReferencePage() {
                   tools and frameworks, not pre-built website templates or themes.
                 </p>
               </div>
-
-              <div>
-                <h3 className="font-semibold mb-2">Original Design Confirmation</h3>
-                <p className="text-sm mb-2">
-                  <strong>All layout, page composition, styling, and design elements were created by the
-                  MTHS TSA team specifically for this project.</strong>
-                </p>
-                <p className="text-sm mb-4">
-                  No pre-built templates or themes were used. While we utilized open-source component
-                  libraries (Radix UI, shadcn/ui) for accessible base components, all visual design, color
-                  schemes, typography choices, layout decisions, and page compositions are original work.
-                </p>
-                <p className="text-sm text-muted-foreground">
-                  Every page layout was designed from scratch. Every component was customized and styled to
-                  match our design system. The information architecture, navigation structure, and user
-                  experience flows are all original designs created for the Community Resource Hub concept.
-                </p>
-              </div>
             </CardContent>
           </Card>
 
@@ -387,8 +369,8 @@ export default function ReferencePage() {
             </p>
             <p className="mt-2">
               For questions or corrections, contact:{' '}
-              <a href="mailto:mths.tsa@example.edu" className="text-primary hover:underline">
-                mths.tsa@example.edu
+              <a href="mailto:hello@neighborlyhub.org" className="text-primary hover:underline">
+                hello@neighborlyhub.org
               </a>
             </p>
           </div>

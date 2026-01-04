@@ -221,6 +221,6 @@ Before submitting to TSA:
 ## Contact
 
 For questions about TSA compliance or this project:
-- **Email**: mths.tsa@example.edu
+- **Email**: hello@neighborlyhub.org
 - **School**: Mountlake Terrace High School TSA
 - **Event**: WTSA 2025-26 Webmaster Competition

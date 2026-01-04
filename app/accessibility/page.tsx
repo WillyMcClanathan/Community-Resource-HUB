@@ -120,7 +120,7 @@ export default function AccessibilityPage() {
             <h2 className="text-2xl font-semibold mb-4">Reporting Accessibility Issues</h2>
             <p>
               We welcome feedback on the accessibility of this site. If you encounter any barriers or
-              have suggestions for improvement, please contact us at mths.tsa@example.edu with:
+              have suggestions for improvement, please contact us at hello@neighborlyhub.org with:
             </p>
             <ul className="list-disc pl-6 space-y-1">
               <li>A description of the problem</li>

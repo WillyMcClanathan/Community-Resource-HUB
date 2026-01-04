@@ -112,7 +112,7 @@ export default function PrivacyPage() {
               <li>Clear your browser's local storage at any time</li>
             </ul>
             <p className="mt-4">
-              To exercise these rights, contact us at mths.tsa@example.edu with your request.
+              To exercise these rights, contact us at hello@neighborlyhub.org with your request.
             </p>
           </section>
 
