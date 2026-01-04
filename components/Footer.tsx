@@ -10,11 +10,14 @@ export function Footer() {
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="font-semibold mb-3">About</h3>
+            <h3 className="font-semibold mb-3">About Neighborly</h3>
             <p className="text-sm text-muted-foreground mb-2">
-              {siteData.siteTitle}
+              Community Resource Hub
             </p>
-            <p className="text-sm text-muted-foreground">
+            <p className="text-sm text-muted-foreground mb-1">
+              Created by
+            </p>
+            <p className="text-sm font-medium">
               {siteData.chapterName}
             </p>
           </div>
@@ -89,10 +92,13 @@ export function Footer() {
         </div>
 
         <div className="border-t mt-8 pt-6 text-center text-sm text-muted-foreground">
-          <p>
-            &copy; {currentYear} {siteData.chapterName}. Built for WTSA 2025-26 Webmaster Competition.
+          <p className="font-medium mb-2">
+            Neighborly is a community resource platform created by the {siteData.chapterName} Webmaster Team.
           </p>
-          <p className="mt-2 text-xs">
+          <p className="mb-2">
+            &copy; {currentYear} {siteData.chapterName}. Built for WTSA {siteData.year} Webmaster Event.
+          </p>
+          <p className="text-xs">
             All resource information is provided as-is. Please verify details before visiting.
           </p>
         </div>

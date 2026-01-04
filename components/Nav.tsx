@@ -30,7 +30,7 @@ export function Nav() {
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="font-semibold text-lg hover:text-primary transition-colors">
-            {siteData.chapterName}
+            {siteData.platformName}
           </Link>
 
           <div className="hidden md:flex items-center gap-6">

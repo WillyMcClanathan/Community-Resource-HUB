@@ -6,7 +6,7 @@ import { generateMetadata as generateMeta } from '@/lib/seo';
 
 export const metadata = generateMeta({
   title: 'About',
-  description: 'Learn about the MTHS Community Resource Hub project and our mission.',
+  description: 'Learn about Neighborly, a community resource platform created by the MTHS TSA Webmaster Team.',
   url: '/about',
 });
 
@@ -16,12 +16,13 @@ export default function AboutPage() {
       <div className="max-w-4xl mx-auto">
         <Breadcrumbs items={[{ label: 'About' }]} />
 
-        <h1 className="text-4xl font-bold mb-4">About This Project</h1>
+        <h1 className="text-4xl font-bold mb-4">About Neighborly</h1>
 
         <div className="prose prose-slate max-w-none mb-8">
           <p className="text-lg text-muted-foreground">
-            The MTHS Community Resource Hub is a comprehensive directory created to connect residents
-            of Mountlake Terrace and South Snohomish County with essential community services.
+            Neighborly is a community resource platform that connects residents of Mountlake Terrace
+            and South Snohomish County with essential local services. This searchable directory was
+            created by the {siteData.chapterName} for the WTSA {siteData.year} Webmaster Event.
           </p>
         </div>
 
@@ -33,9 +34,9 @@ export default function AboutPage() {
             </CardHeader>
             <CardContent>
               <CardDescription>
-                To provide accessible, searchable information about community resources that serve our
-                neighbors in need. We believe everyone deserves easy access to the support services
-                available in our community.
+                Neighborly connects residents with essential community services through accessible,
+                searchable information. We believe everyone deserves easy access to food assistance,
+                housing support, health services, and other local resources — all in one place.
               </CardDescription>
             </CardContent>
           </Card>
@@ -71,13 +72,13 @@ export default function AboutPage() {
           <Card>
             <CardHeader>
               <Award className="h-8 w-8 text-primary mb-2" />
-              <CardTitle>TSA Webmaster Project</CardTitle>
+              <CardTitle>Created by MTHS TSA</CardTitle>
             </CardHeader>
             <CardContent>
               <CardDescription>
-                This project was developed by {siteData.chapterName} for the WTSA {siteData.year}{' '}
-                Webmaster Event, demonstrating web development skills, accessibility best practices,
-                and community-focused design.
+                Neighborly was designed and developed by the {siteData.chapterName} Webmaster Team
+                for the WTSA {siteData.year} Webmaster Event. This project demonstrates web development
+                skills, accessibility best practices, and community-focused design.
               </CardDescription>
             </CardContent>
           </Card>

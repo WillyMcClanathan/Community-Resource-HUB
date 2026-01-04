@@ -50,11 +50,13 @@ export default function HomePage() {
       <section className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center space-y-6">
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight">
-            Find Community Resources in Mountlake Terrace
+            Find trusted community resources in Mountlake Terrace
           </h1>
           <p className="text-xl text-muted-foreground">
-            Discover local services for food, housing, health, education, and more in South
-            Snohomish County.
+            Food, housing, health, education, and local support — all in one place.
+          </p>
+          <p className="text-sm text-muted-foreground italic">
+            Local help, right around the corner.
           </p>
 
           <div className="max-w-2xl mx-auto" onKeyPress={handleKeyPress}>
@@ -150,15 +152,15 @@ export default function HomePage() {
 
       <section className="container mx-auto px-4 text-center">
         <div className="max-w-2xl mx-auto space-y-4">
-          <h2 className="text-2xl font-semibold">About This Project</h2>
+          <h2 className="text-2xl font-semibold">About Neighborly</h2>
           <p className="text-muted-foreground">
-            This community resource hub was created by Mountlake Terrace High School TSA for the
-            WTSA 2025-26 Webmaster Event. All resources are provided as samples for demonstration
-            purposes.
+            Neighborly is a community resource platform created by the Mountlake Terrace High School
+            TSA Webmaster Team for the WTSA 2025-26 Webmaster Event. Our mission is to connect residents
+            with essential local services through accessible, searchable information.
           </p>
           <Button variant="link" asChild>
             <Link href="/about">
-              Learn More
+              Learn More About the Project
               <ArrowRight className="h-4 w-4 ml-1" />
             </Link>
           </Button>
