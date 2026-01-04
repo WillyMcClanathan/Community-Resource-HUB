@@ -20,8 +20,8 @@ export default function PrivacyPage() {
           <section>
             <h2 className="text-2xl font-semibold mb-4">Overview</h2>
             <p>
-              The MTHS Community Resource Hub respects your privacy. This policy explains what
-              information we collect, how we use it, and your rights regarding your data.
+              Neighborly respects your privacy. This policy explains what information we collect,
+              how we use it, and your rights regarding your data.
             </p>
           </section>
 
@@ -140,9 +140,7 @@ export default function PrivacyPage() {
               For questions or concerns about this privacy policy or our data practices, please contact:
             </p>
             <p className="mt-2">
-              <strong>Mountlake Terrace High School TSA</strong>
-              <br />
-              Email: mths.tsa@example.edu
+              Email: hello@neighborlyhub.org
             </p>
           </section>
         </div>

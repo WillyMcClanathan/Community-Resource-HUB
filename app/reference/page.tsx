@@ -18,6 +18,11 @@ export default function ReferencePage() {
         <Breadcrumbs items={[{ label: 'Reference Page' }]} />
 
         <h1 className="text-4xl font-bold mb-2">Reference Page</h1>
+        <div className="bg-primary/5 border-l-4 border-primary p-4 mb-6">
+          <p className="text-sm font-medium">
+            This page contains required documentation and development references.
+          </p>
+        </div>
         <p className="text-muted-foreground mb-8">
           Complete documentation of sources, attributions, copyright information, and compliance materials for this project.
         </p>

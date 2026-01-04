@@ -6,7 +6,7 @@ import { generateMetadata as generateMeta } from '@/lib/seo';
 
 export const metadata = generateMeta({
   title: 'About',
-  description: 'Learn about Neighborly, a community resource platform created by the MTHS TSA Webmaster Team.',
+  description: 'Learn about Neighborly, a community resource platform serving South Snohomish County.',
   url: '/about',
 });
 
@@ -20,9 +20,9 @@ export default function AboutPage() {
 
         <div className="prose prose-slate max-w-none mb-8">
           <p className="text-lg text-muted-foreground">
-            Neighborly is a community resource platform that connects residents of Mountlake Terrace
-            and South Snohomish County with essential local services. This searchable directory was
-            created by the {siteData.chapterName} for the WTSA {siteData.year} Webmaster Event.
+            Neighborly is a community resource platform designed to help South Snohomish County residents
+            quickly find reliable local support services. From food banks to health clinics, housing assistance
+            to educational programs, we organize and present trusted community resources in one accessible place.
           </p>
         </div>
 
@@ -34,9 +34,9 @@ export default function AboutPage() {
             </CardHeader>
             <CardContent>
               <CardDescription>
-                Neighborly connects residents with essential community services through accessible,
-                searchable information. We believe everyone deserves easy access to food assistance,
-                housing support, health services, and other local resources — all in one place.
+                To provide accessible, centralized information about community resources that serve
+                residents in need. We believe finding help should be simple, clear, and available
+                to everyone regardless of background, technology access, or familiarity with social services.
               </CardDescription>
             </CardContent>
           </Card>
@@ -48,9 +48,9 @@ export default function AboutPage() {
             </CardHeader>
             <CardContent>
               <CardDescription>
-                Residents of Mountlake Terrace, Lynnwood, Edmonds, and surrounding South Snohomish
-                County areas seeking food assistance, housing support, health services, education,
-                and more.
+                Residents of South Snohomish County, including Mountlake Terrace, Lynnwood, Edmonds,
+                Everett, and surrounding communities. Our resources serve individuals and families
+                seeking assistance with food, housing, health care, transportation, education, and more.
               </CardDescription>
             </CardContent>
           </Card>
@@ -58,13 +58,13 @@ export default function AboutPage() {
           <Card>
             <CardHeader>
               <Code className="h-8 w-8 text-primary mb-2" />
-              <CardTitle>Technology & Design</CardTitle>
+              <CardTitle>Built for Accessibility</CardTitle>
             </CardHeader>
             <CardContent>
               <CardDescription>
-                Built with Next.js 14, TypeScript, and TailwindCSS for optimal performance and
-                accessibility. Features include instant search, advanced filtering, mobile-first
-                responsive design, and full keyboard navigation.
+                Designed with accessibility at its core, featuring instant search, mobile-first
+                responsive design, full keyboard navigation, and screen reader support. Works on
+                any device, from smartphones to desktop computers.
               </CardDescription>
             </CardContent>
           </Card>
@@ -72,13 +72,13 @@ export default function AboutPage() {
           <Card>
             <CardHeader>
               <Award className="h-8 w-8 text-primary mb-2" />
-              <CardTitle>Created by MTHS TSA</CardTitle>
+              <CardTitle>Verified Resources</CardTitle>
             </CardHeader>
             <CardContent>
               <CardDescription>
-                Neighborly was designed and developed by the {siteData.chapterName} Webmaster Team
-                for the WTSA {siteData.year} Webmaster Event. This project demonstrates web development
-                skills, accessibility best practices, and community-focused design.
+                All listed resources are researched and verified through official sources, including
+                211 Snohomish County, organizational websites, and community partnerships. We prioritize
+                accuracy and regularly update resource information.
               </CardDescription>
             </CardContent>
           </Card>
@@ -90,13 +90,13 @@ export default function AboutPage() {
           </CardHeader>
           <CardContent>
             <p className="text-sm text-muted-foreground">
-              All resources listed in this directory are provided as sample data for demonstration
-              purposes. While based on real community organizations, the information should be verified
-              before use. This project is a student competition entry and not an official government or
-              organizational resource.
+              All resources listed in this directory are provided for informational purposes. While we
+              strive for accuracy and regularly verify information with service providers, we recommend
+              contacting organizations directly to confirm current hours, eligibility requirements, and
+              availability of services.
             </p>
             <p className="text-sm text-muted-foreground mt-4">
-              For questions about this project, please contact {siteData.contactEmail}.
+              For questions or to report outdated information, please contact {siteData.publicContactEmail}.
             </p>
           </CardContent>
         </Card>

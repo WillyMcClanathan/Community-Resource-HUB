@@ -4,7 +4,7 @@ import { generateMetadata as generateMeta } from '@/lib/seo';
 
 export const metadata = generateMeta({
   title: 'FAQ',
-  description: 'Frequently asked questions about using the MTHS Community Resource Hub.',
+  description: 'Frequently asked questions about using Neighborly to find community resources.',
   url: '/faq',
 });
 
@@ -83,9 +83,10 @@ export default function FAQPage() {
           <AccordionItem value="who-runs">
             <AccordionTrigger className="text-left">Who maintains this directory?</AccordionTrigger>
             <AccordionContent>
-              This directory was created by Mountlake Terrace High School TSA as a competition project
-              for the WTSA 2025-26 Webmaster Event. It demonstrates web development skills and
-              community-focused design but is not an official government or organizational resource.
+              Neighborly is a community-focused platform designed to connect South Snohomish County
+              residents with local support services. While we work to maintain accurate and up-to-date
+              information, we are not an official government resource. Always verify details directly
+              with service providers.
             </AccordionContent>
           </AccordionItem>
 

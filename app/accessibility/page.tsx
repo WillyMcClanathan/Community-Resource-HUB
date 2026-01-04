@@ -24,9 +24,9 @@ export default function AccessibilityPage() {
           <section>
             <h2 className="text-2xl font-semibold mb-4">Our Commitment</h2>
             <p>
-              The MTHS Community Resource Hub is designed to be accessible to everyone, including
-              people with disabilities. We strive to meet WCAG 2.1 Level AA standards and continuously
-              work to improve the accessibility of our site.
+              Neighborly is designed to be accessible to everyone, including people with disabilities.
+              We strive to meet WCAG 2.1 Level AA standards and continuously work to improve the
+              accessibility of our platform.
             </p>
           </section>
 

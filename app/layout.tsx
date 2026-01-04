@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 export const metadata: Metadata = {
   title: siteData.siteTitle,
   description: siteData.siteDescription,
-  keywords: ['community resources', 'Mountlake Terrace', 'Washington', 'social services', 'TSA'],
+  keywords: ['community resources', 'South Snohomish County', 'Washington', 'social services', 'food banks', 'housing assistance'],
   openGraph: {
     title: siteData.siteTitle,
     description: siteData.siteDescription,
