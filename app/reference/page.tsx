@@ -330,7 +330,7 @@ export default function ReferencePage() {
                   </CardHeader>
                   <CardContent>
                     <Button asChild className="w-full">
-                      <a href="/pdfs/work-log.pdf" target="_blank" rel="noopener noreferrer">
+                      <a href="/pdfs/willy,_edgar_webmaster_worklog.pdf" target="_blank" rel="noopener noreferrer">
                         <FileText className="h-4 w-4 mr-2" />
                         Download Work Log (PDF)
                       </a>
