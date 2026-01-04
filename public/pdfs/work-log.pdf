@@ -1,0 +1,90 @@
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/Resources <<
+/Font <<
+/F1 4 0 R
+>>
+>>
+/MediaBox [0 0 612 792]
+/Contents 5 0 R
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+5 0 obj
+<<
+/Length 520
+>>
+stream
+BT
+/F1 16 Tf
+50 750 Td
+(WORK LOG) Tj
+0 -30 Td
+/F1 12 Tf
+(TSA Webmaster Event 2025-26) Tj
+0 -40 Td
+(PLACEHOLDER DOCUMENT) Tj
+0 -30 Td
+/F1 10 Tf
+(This is a placeholder PDF file.) Tj
+0 -20 Td
+(Replace with the completed Work Log before submission.) Tj
+0 -40 Td
+(The completed log must include:) Tj
+0 -20 Td
+(  - Date and time for each work session) Tj
+0 -15 Td
+(  - Team member name and role for each session) Tj
+0 -15 Td
+(  - Description of work completed) Tj
+0 -15 Td
+(  - Hours spent on each task) Tj
+0 -15 Td
+(  - Total hours per team member) Tj
+0 -15 Td
+(  - Signatures verifying accuracy) Tj
+0 -40 Td
+(Download the official form template from TSA and complete it fully.) Tj
+0 -20 Td
+(Document all development time from project start to completion.) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f
+0000000009 00000 n
+0000000058 00000 n
+0000000115 00000 n
+0000000274 00000 n
+0000000353 00000 n
+trailer
+<<
+/Size 6
+/Root 1 0 R
+>>
+startxref
+924
+%%EOF

@@ -46,14 +46,14 @@ export default function ResourcesPage() {
   }), []);
 
   const filteredResources = useMemo(() => {
-    let results = [...resourcesData];
+    let results: any[] = [...resourcesData];
 
     if (searchQuery) {
-      results = searchResources(results as any, searchQuery);
+      results = searchResources(results as any, searchQuery) as any;
     }
 
-    results = applyFilters(results as any, filters);
-    results = sortResources(results as any, sortBy);
+    results = applyFilters(results as any, filters) as any;
+    results = sortResources(results as any, sortBy) as any;
 
     return results;
   }, [searchQuery, filters, sortBy]);

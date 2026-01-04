@@ -13,6 +13,7 @@ const navItems = [
   { href: '/highlights', label: 'Highlights' },
   { href: '/submit', label: 'Submit Resource' },
   { href: '/about', label: 'About' },
+  { href: '/reference', label: 'Reference Page' },
 ];
 
 export function Nav() {

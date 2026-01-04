@@ -20,15 +20,15 @@ export async function GET(request: Request) {
       openNow: searchParams.get('openNow') === 'true',
     };
 
-    let results = [...resourcesData];
+    let results: any[] = [...resourcesData];
 
     if (query) {
-      results = searchResources(results, query);
+      results = searchResources(results as any, query) as any;
     }
 
-    results = applyFilters(results, filters);
+    results = applyFilters(results as any, filters) as any;
 
-    results = sortResources(results, sortBy);
+    results = sortResources(results as any, sortBy) as any;
 
     return NextResponse.json({
       results,

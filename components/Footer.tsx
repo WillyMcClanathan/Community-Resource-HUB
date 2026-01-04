@@ -63,6 +63,11 @@ export function Footer() {
                   Privacy Policy
                 </Link>
               </li>
+              <li>
+                <Link href="/reference" className="text-muted-foreground hover:text-primary transition-colors">
+                  Reference Page
+                </Link>
+              </li>
             </ul>
           </div>
 
