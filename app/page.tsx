@@ -152,15 +152,15 @@ export default function HomePage() {
 
       <section className="container mx-auto px-4 text-center">
         <div className="max-w-2xl mx-auto space-y-4">
-          <h2 className="text-2xl font-semibold">About Neighborly</h2>
+          <h2 className="text-2xl font-semibold">About Entraide</h2>
           <p className="text-muted-foreground">
-            Neighborly is a community resource platform designed to connect South Snohomish County
+            Entraide is a community resource platform designed to connect South Snohomish County
             residents with essential local services through accessible, searchable information.
             We believe everyone deserves easy access to the support services available in our community.
           </p>
           <Button variant="link" asChild>
             <Link href="/about">
-              Learn More About Neighborly
+              Learn More About Entraide
               <ArrowRight className="h-4 w-4 ml-1" />
             </Link>
           </Button>

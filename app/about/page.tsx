@@ -6,7 +6,7 @@ import { generateMetadata as generateMeta } from '@/lib/seo';
 
 export const metadata = generateMeta({
   title: 'About',
-  description: 'Learn about Neighborly, a community resource platform serving South Snohomish County.',
+  description: 'Learn about Entraide, a community resource platform serving South Snohomish County.',
   url: '/about',
 });
 
@@ -16,11 +16,11 @@ export default function AboutPage() {
       <div className="max-w-4xl mx-auto">
         <Breadcrumbs items={[{ label: 'About' }]} />
 
-        <h1 className="text-4xl font-bold mb-4">About Neighborly</h1>
+        <h1 className="text-4xl font-bold mb-4">About Entraide</h1>
 
         <div className="prose prose-slate max-w-none mb-8">
           <p className="text-lg text-muted-foreground">
-            Neighborly is a community resource platform designed to help South Snohomish County residents
+            Entraide is a community resource platform designed to help South Snohomish County residents
             quickly find reliable local support services. From food banks to health clinics, housing assistance
             to educational programs, we organize and present trusted community resources in one accessible place.
           </p>

@@ -1,16 +1,16 @@
 {
-  "platformName": "Neighborly",
+  "platformName": "Entraide",
   "platformSubtitle": "Community Resource Hub",
   "platformTagline": "Local help, right around the corner.",
   "serviceArea": "South Snohomish County",
-  "publicContactEmail": "hello@neighborlyhub.org",
+  "publicContactEmail": "hello@entraidehub.org",
   "chapterName": "Mountlake Terrace High School TSA",
   "schoolDistrict": "Edmonds School District",
   "city": "Mountlake Terrace, WA",
-  "contactEmail": "hello@neighborlyhub.org",
-  "siteTitle": "Neighborly - Community Resource Hub",
+  "contactEmail": "hello@entraidehub.org",
+  "siteTitle": "Entraide - Community Resource Hub",
   "siteDescription": "Find trusted community resources in South Snohomish County. Food, housing, health, education, and local support — all in one place.",
-  "siteUrl": "https://neighborlyhub.org",
+  "siteUrl": "https://entraidehub.org",
   "ogImage": "/images/og-default.png",
   "year": "2025-2026"
 }

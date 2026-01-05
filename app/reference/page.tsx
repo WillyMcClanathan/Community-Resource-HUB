@@ -369,8 +369,8 @@ export default function ReferencePage() {
             </p>
             <p className="mt-2">
               For questions or corrections, contact:{' '}
-              <a href="mailto:hello@neighborlyhub.org" className="text-primary hover:underline">
-                hello@neighborlyhub.org
+              <a href="mailto:hello@entraidehub.org" className="text-primary hover:underline">
+                hello@entraidehub.org
               </a>
             </p>
           </div>

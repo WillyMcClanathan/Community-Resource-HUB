@@ -24,7 +24,7 @@ export default function AccessibilityPage() {
           <section>
             <h2 className="text-2xl font-semibold mb-4">Our Commitment</h2>
             <p>
-              Neighborly is designed to be accessible to everyone, including people with disabilities.
+              Entraide is designed to be accessible to everyone, including people with disabilities.
               We strive to meet WCAG 2.1 Level AA standards and continuously work to improve the
               accessibility of our platform.
             </p>
@@ -120,7 +120,7 @@ export default function AccessibilityPage() {
             <h2 className="text-2xl font-semibold mb-4">Reporting Accessibility Issues</h2>
             <p>
               We welcome feedback on the accessibility of this site. If you encounter any barriers or
-              have suggestions for improvement, please contact us at hello@neighborlyhub.org with:
+              have suggestions for improvement, please contact us at hello@entraidehub.org with:
             </p>
             <ul className="list-disc pl-6 space-y-1">
               <li>A description of the problem</li>

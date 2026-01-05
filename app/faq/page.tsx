@@ -4,7 +4,7 @@ import { generateMetadata as generateMeta } from '@/lib/seo';
 
 export const metadata = generateMeta({
   title: 'FAQ',
-  description: 'Frequently asked questions about using Neighborly to find community resources.',
+  description: 'Frequently asked questions about using Entraide to find community resources.',
   url: '/faq',
 });
 
@@ -83,7 +83,7 @@ export default function FAQPage() {
           <AccordionItem value="who-runs">
             <AccordionTrigger className="text-left">Who maintains this directory?</AccordionTrigger>
             <AccordionContent>
-              Neighborly is a community-focused platform designed to connect South Snohomish County
+              Entraide is a community-focused platform designed to connect South Snohomish County
               residents with local support services. While we work to maintain accurate and up-to-date
               information, we are not an official government resource. Always verify details directly
               with service providers.

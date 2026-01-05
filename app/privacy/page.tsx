@@ -20,7 +20,7 @@ export default function PrivacyPage() {
           <section>
             <h2 className="text-2xl font-semibold mb-4">Overview</h2>
             <p>
-              Neighborly respects your privacy. This policy explains what information we collect,
+              Entraide respects your privacy. This policy explains what information we collect,
               how we use it, and your rights regarding your data.
             </p>
           </section>
@@ -112,7 +112,7 @@ export default function PrivacyPage() {
               <li>Clear your browser's local storage at any time</li>
             </ul>
             <p className="mt-4">
-              To exercise these rights, contact us at hello@neighborlyhub.org with your request.
+              To exercise these rights, contact us at hello@entraidehub.org with your request.
             </p>
           </section>
 
@@ -140,7 +140,7 @@ export default function PrivacyPage() {
               For questions or concerns about this privacy policy or our data practices, please contact:
             </p>
             <p className="mt-2">
-              Email: hello@neighborlyhub.org
+              Email: hello@entraidehub.org
             </p>
           </section>
         </div>
