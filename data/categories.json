@@ -54,12 +54,5 @@
     "slug": "transportation",
     "color": "#059669",
     "icon": "bus"
-  },
-  {
-    "id": "recreation-events",
-    "name": "Recreation & Events",
-    "slug": "recreation-events",
-    "color": "#d97706",
-    "icon": "calendar"
   }
 ]

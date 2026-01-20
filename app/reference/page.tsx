@@ -241,7 +241,7 @@ export default function ReferencePage() {
                 <h3 className="font-semibold mb-2">Original Work Statement</h3>
                 <p className="text-sm mb-4">
                   All website content, page layouts, custom components, utility functions, and design elements
-                  were created by the Mountlake Terrace High School TSA team specifically for this project.
+                  were created by the Mountlake Terrace High School Webmaster 2 team specifically for this project.
                   No copyrighted text, images, audio, or video were used without proper licensing or attribution.
                 </p>
               </div>
@@ -307,47 +307,8 @@ export default function ReferencePage() {
                 TSA Webmaster Event compliance documentation (download PDFs)
               </CardDescription>
             </CardHeader>
-            <CardContent className="space-y-4">
-              <p className="text-sm text-muted-foreground mb-4">
-                <strong>Important:</strong> Replace placeholder PDFs with final signed forms before submission.
-                Both forms must be completed, signed, and uploaded to fulfill TSA competition requirements.
-              </p>
-
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <Card>
-                  <CardHeader>
-                    <CardTitle className="text-base">Student Copyright Checklist</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <Button asChild className="w-full">
-                      <a href="/pdfs/student-copyright-checklist.pdf" target="_blank" rel="noopener noreferrer">
-                        <FileText className="h-4 w-4 mr-2" />
-                        Download Checklist (PDF)
-                      </a>
-                    </Button>
-                    <p className="text-xs text-muted-foreground mt-2">
-                      Required form documenting copyright compliance and proper attribution
-                    </p>
-                  </CardContent>
-                </Card>
-
-                <Card>
-                  <CardHeader>
-                    <CardTitle className="text-base">Work Log</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <Button asChild className="w-full">
-                      <a href="/pdfs/willy,_edgar_webmaster_worklog.pdf" target="_blank" rel="noopener noreferrer">
-                        <FileText className="h-4 w-4 mr-2" />
-                        Download Work Log (PDF)
-                      </a>
-                    </Button>
-                    <p className="text-xs text-muted-foreground mt-2">
-                      Required form documenting development hours and team member contributions
-                    </p>
-                  </CardContent>
-                </Card>
-              </div>
+            <CardContent>
+              <p className="text-center text-muted-foreground">Coming soon!</p>
             </CardContent>
           </Card>
 
@@ -372,9 +333,6 @@ export default function ReferencePage() {
 
           <div className="text-center text-sm text-muted-foreground pt-4">
             <p>
-              This Reference Page was last updated: October 1, 2025
-            </p>
-            <p className="mt-2">
               For questions or corrections, contact:{' '}
               <a href="mailto:hello@entraidehub.org" className="text-primary hover:underline">
                 hello@entraidehub.org

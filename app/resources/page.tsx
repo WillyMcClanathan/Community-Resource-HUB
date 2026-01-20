@@ -85,7 +85,7 @@ export default function ResourcesPage() {
         <h1 className="text-4xl font-bold mb-2">Community Resources</h1>
         <p className="text-muted-foreground mb-8">
           Browse and search {resourcesData.length} resources serving Mountlake Terrace and South
-          Snohomish County
+          Snohomish County (More coming soon)
         </p>
 
         <div className="space-y-4 mb-8">
