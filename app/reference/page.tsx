@@ -267,7 +267,7 @@ export default function ReferencePage() {
               <div>
                 <h3 className="font-semibold mb-2">Sample Data Disclaimer</h3>
                 <p className="text-sm mb-2">
-                  All community resource listings in this directory are sample data created for
+                  The directory contains 12 sample community resource listings created for
                   demonstration purposes. While based on real organizations serving Mountlake Terrace and
                   South Snohomish County, the specific details (hours, contact information, services) are
                   approximations and should be verified independently before use.
@@ -276,6 +276,13 @@ export default function ReferencePage() {
                   Organization names and general service descriptions were researched from publicly available
                   information on official websites and 211 Snohomish County. No proprietary or confidential
                   information was used.
+                </p>
+                <p className="text-sm text-muted-foreground mt-2">
+                  The 12 sample resources include: Verdant Health Commission Food Bank, Community Transit
+                  Access Program, Edmonds School District Family Resource Center, YWCA Domestic Violence
+                  Services, Recreation Pavilion Senior Center, HealthPoint Community Health Center, Edmonds
+                  Library MLT Branch, Northwest Immigration Rights Project, Boys & Girls Clubs, Hopelink
+                  Emergency Services, Volunteers of America, and Snohomish County Crisis Line.
                 </p>
               </div>
 
