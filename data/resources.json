@@ -19,8 +19,7 @@
     "eligibility": "Open to all residents",
     "cost": "Free",
     "languages": ["English", "Spanish", "Russian", "Korean"],
-    "featured": true,
-    "lastVerified": "2025-09-15"
+    "featured": true
   },
   {
     "id": "8e9f0a1b-2c3d-4e5f-6a7b-8c9d0e1f2a3b",
@@ -42,8 +41,7 @@
     "eligibility": "Age 65+, disability documentation, or income below 200% federal poverty level",
     "cost": "Reduced fare: $1.25 per ride",
     "languages": ["English", "Spanish"],
-    "featured": true,
-    "lastVerified": "2025-09-20"
+    "featured": true
   },
   {
     "id": "4c5d6e7f-8a9b-0c1d-2e3f-4a5b6c7d8e9f",
@@ -59,14 +57,13 @@
     "contact": {
       "phone": "(425) 431-7200",
       "email": "frc@edmonds.wednet.edu",
-      "website": "https://edmonds.wednet.edu/frc"
+      "website": "https://www.edmonds.wednet.edu/families/family-support"
     },
     "accessibility": ["Wheelchair-accessible entrance", "Accessible parking", "Sign language interpreter available"],
     "eligibility": "Families with students in Edmonds School District",
     "cost": "Free",
     "languages": ["English", "Spanish", "Russian", "Vietnamese", "Amharic"],
-    "featured": true,
-    "lastVerified": "2025-09-10"
+    "featured": true
   },
   {
     "id": "a1b2c3d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d",
@@ -88,8 +85,7 @@
     "eligibility": "Survivors of domestic violence and their children",
     "cost": "Free",
     "languages": ["English", "Spanish"],
-    "featured": false,
-    "lastVerified": "2025-08-28"
+    "featured": false
   },
   {
     "id": "7b8c9d0e-1f2a-3b4c-5d6e-7f8a9b0c1d2e",
@@ -105,14 +101,13 @@
     "contact": {
       "phone": "(425) 776-9173",
       "email": "recreation@cityofmlt.com",
-      "website": "https://cityofmlt.com/recreation"
+      "website": "https://www.cityofmlt.com/385/Recreation-Pavilion"
     },
     "accessibility": ["Wheelchair-accessible entrance", "Accessible parking", "Accessible restrooms"],
     "eligibility": "Age 55+",
     "cost": "Free or low-cost activities; lunch $5 suggested donation",
     "languages": ["English"],
-    "featured": false,
-    "lastVerified": "2025-09-18"
+    "featured": false
   },
   {
     "id": "2e3f4a5b-6c7d-8e9f-0a1b-2c3d4e5f6a7b",
@@ -134,8 +129,7 @@
     "eligibility": "All patients welcome, sliding scale for uninsured",
     "cost": "Sliding scale based on income",
     "languages": ["English", "Spanish", "Russian", "Korean", "Vietnamese"],
-    "featured": false,
-    "lastVerified": "2025-09-22"
+    "featured": false
   },
   {
     "id": "9f0a1b2c-3d4e-5f6a-7b8c-9d0e1f2a3b4c",
@@ -157,8 +151,7 @@
     "eligibility": "Open to all",
     "cost": "Free",
     "languages": ["English", "Spanish", "Russian"],
-    "featured": false,
-    "lastVerified": "2025-09-25"
+    "featured": false
   },
   {
     "id": "5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e0f",
@@ -180,8 +173,7 @@
     "eligibility": "Low-income immigrants and asylum seekers",
     "cost": "Free or sliding scale",
     "languages": ["English", "Spanish", "Russian", "Vietnamese", "Somali", "Arabic"],
-    "featured": false,
-    "lastVerified": "2025-08-30"
+    "featured": false
   },
   {
     "id": "1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
@@ -203,8 +195,7 @@
     "eligibility": "Youth ages 6–18",
     "cost": "Annual membership $60, scholarships available",
     "languages": ["English", "Spanish"],
-    "featured": false,
-    "lastVerified": "2025-09-12"
+    "featured": false
   },
   {
     "id": "8d9e0f1a-2b3c-4d5e-6f7a-8b9c0d1e2f3a",
@@ -226,8 +217,7 @@
     "eligibility": "Income guidelines apply",
     "cost": "Free",
     "languages": ["English", "Spanish", "Russian", "Chinese", "Korean"],
-    "featured": false,
-    "lastVerified": "2025-09-05"
+    "featured": false
   },
   {
     "id": "4f5a6b7c-8d9e-0f1a-2b3c-4d5e6f7a8b9c",
@@ -249,8 +239,7 @@
     "eligibility": "Veterans and families experiencing homelessness",
     "cost": "Based on program",
     "languages": ["English", "Spanish"],
-    "featured": false,
-    "lastVerified": "2025-08-20"
+    "featured": false
   },
   {
     "id": "0e1f2a3b-4c5d-6e7f-8a9b-0c1d2e3f4a5b",
@@ -272,7 +261,6 @@
     "eligibility": "Open to all",
     "cost": "Free",
     "languages": ["English", "Spanish"],
-    "featured": false,
-    "lastVerified": "2025-09-21"
+    "featured": false
   }
 ]

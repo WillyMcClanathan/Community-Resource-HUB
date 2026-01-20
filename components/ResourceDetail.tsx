@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Phone, Mail, ExternalLink, MapPin, Clock, DollarSign, Users, Languages, Accessibility, CalendarCheck, CircleAlert as AlertCircle } from 'lucide-react';
+import { Phone, Mail, ExternalLink, MapPin, Clock, DollarSign, Users, Languages, Accessibility, CircleAlert as AlertCircle } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from './Badge';
@@ -25,7 +25,6 @@ interface Resource {
   eligibility: string;
   languages: string[];
   accessibility: string[];
-  lastVerified: string;
   [key: string]: any;
 }
 
@@ -35,11 +34,6 @@ interface ResourceDetailProps {
 
 export function ResourceDetail({ resource }: ResourceDetailProps) {
   const category = categoriesData.find((c) => c.id === resource.category);
-  const verifiedDate = new Date(resource.lastVerified).toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-  });
 
   return (
     <div className="space-y-6">
@@ -207,14 +201,6 @@ export function ResourceDetail({ resource }: ResourceDetailProps) {
                 </ul>
               </div>
             )}
-
-            <div>
-              <h3 className="font-semibold flex items-center gap-2 mb-2">
-                <CalendarCheck className="h-5 w-5 text-primary" />
-                Last Verified
-              </h3>
-              <p className="text-sm text-muted-foreground">{verifiedDate}</p>
-            </div>
           </div>
 
           <div className="border-t pt-6">
