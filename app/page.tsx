@@ -92,15 +92,7 @@ export default function HomePage() {
 
       <section className="bg-muted/30 py-16">
         <div className="container mx-auto px-4">
-          <div className="flex items-center justify-between mb-8">
-            <h2 className="text-3xl font-semibold">Featured Resources</h2>
-            <Button variant="link" asChild>
-              <Link href="/highlights">
-                View All Highlights
-                <ArrowRight className="h-4 w-4 ml-1" />
-              </Link>
-            </Button>
-          </div>
+          <h2 className="text-3xl font-semibold mb-8">Featured Resources</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {featuredResources.map((resource) => (
@@ -147,23 +139,6 @@ export default function HomePage() {
               </Button>
             </CardContent>
           </Card>
-        </div>
-      </section>
-
-      <section className="container mx-auto px-4 text-center">
-        <div className="max-w-2xl mx-auto space-y-4">
-          <h2 className="text-2xl font-semibold">About Entraide</h2>
-          <p className="text-muted-foreground">
-            Entraide is a community resource platform designed to connect South Snohomish County
-            residents with essential local services through accessible, searchable information.
-            We believe everyone deserves easy access to the support services available in our community.
-          </p>
-          <Button variant="link" asChild>
-            <Link href="/about">
-              Learn More About Entraide
-              <ArrowRight className="h-4 w-4 ml-1" />
-            </Link>
-          </Button>
         </div>
       </section>
     </div>

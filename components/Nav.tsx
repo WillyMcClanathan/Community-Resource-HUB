@@ -10,9 +10,7 @@ import siteData from '@/data/site.json';
 const navItems = [
   { href: '/', label: 'Home' },
   { href: '/resources', label: 'Resources' },
-  { href: '/highlights', label: 'Highlights' },
   { href: '/submit', label: 'Submit Resource' },
-  { href: '/about', label: 'About' },
   { href: '/reference', label: 'Reference Page' },
 ];
 
