@@ -16,7 +16,6 @@
       "website": "https://verdanthealth.org"
     },
     "accessibility": ["Wheelchair-accessible entrance", "Accessible parking"],
-    "eligibility": "Residents of South Snohomish County",
     "cost": "Free",
     "languages": ["English", "Spanish", "Russian", "Korean"],
     "featured": true
@@ -38,7 +37,6 @@
       "website": "https://communitytransit.org"
     },
     "accessibility": ["Full accessibility on all routes"],
-    "eligibility": "Age 65+, disability documentation, or income below 200% federal poverty level",
     "cost": "Reduced fare: $1.25 per ride",
     "languages": ["English", "Spanish"],
     "featured": true
@@ -60,7 +58,6 @@
       "website": "https://www.edmonds.wednet.edu/families/family-support"
     },
     "accessibility": ["Wheelchair-accessible entrance", "Accessible parking", "Sign language interpreter available"],
-    "eligibility": "Families with students in Edmonds School District",
     "cost": "Free",
     "languages": ["English", "Spanish", "Russian", "Vietnamese", "Amharic"],
     "featured": true
@@ -82,7 +79,6 @@
       "website": "https://ywcaworks.org"
     },
     "accessibility": ["Wheelchair-accessible facilities"],
-    "eligibility": "Survivors of domestic violence and their children",
     "cost": "Free",
     "languages": ["English", "Spanish"],
     "featured": false
@@ -104,7 +100,6 @@
       "website": "https://www.cityofmlt.com/385/Recreation-Pavilion"
     },
     "accessibility": ["Wheelchair-accessible entrance", "Accessible parking", "Accessible restrooms"],
-    "eligibility": "Age 55+",
     "cost": "Free or low-cost activities; lunch $5 suggested donation",
     "languages": ["English"],
     "featured": false
@@ -126,7 +121,6 @@
       "website": "https://healthpointchc.org"
     },
     "accessibility": ["Wheelchair-accessible entrance", "Accessible parking", "Accessible exam rooms"],
-    "eligibility": "All patients welcome, sliding scale for uninsured",
     "cost": "Sliding scale based on income",
     "languages": ["English", "Spanish", "Russian", "Korean", "Vietnamese"],
     "featured": false
@@ -148,7 +142,6 @@
       "website": "https://sno-isle.org"
     },
     "accessibility": ["Wheelchair-accessible entrance", "Accessible parking", "Accessible restrooms", "Assistive technology"],
-    "eligibility": "Open to all",
     "cost": "Free",
     "languages": ["English", "Spanish", "Russian"],
     "featured": false
@@ -170,7 +163,6 @@
       "website": "https://nwirp.org"
     },
     "accessibility": ["Wheelchair-accessible entrance"],
-    "eligibility": "Low-income immigrants and asylum seekers",
     "cost": "Free or sliding scale",
     "languages": ["English", "Spanish", "Russian", "Vietnamese", "Somali", "Arabic"],
     "featured": false
@@ -192,7 +184,6 @@
       "website": "https://bgcsnohomish.org"
     },
     "accessibility": ["Wheelchair-accessible entrance", "Accessible parking"],
-    "eligibility": "Youth ages 6–18",
     "cost": "Annual membership $60, scholarships available",
     "languages": ["English", "Spanish"],
     "featured": false
@@ -214,7 +205,6 @@
       "website": "https://hopelink.org"
     },
     "accessibility": ["Wheelchair-accessible entrance"],
-    "eligibility": "Income guidelines apply",
     "cost": "Free",
     "languages": ["English", "Spanish", "Russian", "Chinese", "Korean"],
     "featured": false
@@ -236,7 +226,6 @@
       "website": "https://voaww.org"
     },
     "accessibility": ["Wheelchair-accessible facilities"],
-    "eligibility": "Veterans and families experiencing homelessness",
     "cost": "Based on program",
     "languages": ["English", "Spanish"],
     "featured": false
@@ -258,7 +247,6 @@
       "website": "https://snohomishcountywa.gov/crisis"
     },
     "accessibility": ["TTY available"],
-    "eligibility": "Open to all",
     "cost": "Free",
     "languages": ["English", "Spanish"],
     "featured": false

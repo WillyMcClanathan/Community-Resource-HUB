@@ -22,7 +22,7 @@ interface Resource {
     website: string;
   };
   cost: string;
-  eligibility: string;
+  eligibility?: string;
   languages: string[];
   accessibility: string[];
   [key: string]: any;
@@ -156,13 +156,14 @@ export function ResourceDetail({ resource }: ResourceDetailProps) {
           </div>
 
           <div className="border-t pt-6 space-y-4">
-            <div>
+            {/* TODO: Eligibility temporarily disabled; re-enable after verification pass */}
+            {/* <div>
               <h3 className="font-semibold flex items-center gap-2 mb-2">
                 <Users className="h-5 w-5 text-primary" />
                 Eligibility
               </h3>
               <p className="text-sm">{resource.eligibility}</p>
-            </div>
+            </div> */}
 
             <div>
               <h3 className="font-semibold flex items-center gap-2 mb-2">
