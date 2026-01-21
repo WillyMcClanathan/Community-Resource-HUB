@@ -45,7 +45,7 @@ export function generateMetadata(page: PageMetadata) {
 }
 
 export function generateResourceSchema(resource: any) {
-  return {
+  const schema: any = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: resource.name,
@@ -61,13 +61,22 @@ export function generateResourceSchema(resource: any) {
     email: resource.contact.email,
     url: resource.contact.website,
     priceRange: resource.cost,
-    areaServed: resource.serviceArea.map((area: string) => ({
-      '@type': 'City',
-      name: area,
-    })),
     openingHours: resource.hours,
-    accessibilityAPI: resource.accessibility,
   };
+
+  // TODO: Service Area and Accessibility temporarily disabled; re-enable after verification pass
+  // if (resource.serviceArea && resource.serviceArea.length > 0) {
+  //   schema.areaServed = resource.serviceArea.map((area: string) => ({
+  //     '@type': 'City',
+  //     name: area,
+  //   }));
+  // }
+
+  // if (resource.accessibility && resource.accessibility.length > 0) {
+  //   schema.accessibilityAPI = resource.accessibility;
+  // }
+
+  return schema;
 }
 
 export function generateBreadcrumbSchema(items: { name: string; url: string }[]) {

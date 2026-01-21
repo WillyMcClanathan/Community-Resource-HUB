@@ -40,9 +40,10 @@ export default function ResourcesPage() {
   const availableOptions = useMemo(() => ({
     categories: getUniqueValues(resourcesData as any[], 'category'),
     cities: getUniqueValues(resourcesData as any[], 'city'),
-    serviceAreas: resourcesData.flatMap(r => r.serviceArea).filter((v, i, a) => a.indexOf(v) === i).sort(),
-    languages: resourcesData.flatMap(r => r.languages).filter((v, i, a) => a.indexOf(v) === i).sort(),
-    accessibility: ['Wheelchair-accessible', 'Parking', 'Restrooms', 'Sign language'],
+    // TODO: Service Area, Languages, and Accessibility temporarily disabled; re-enable after verification pass
+    // serviceAreas: resourcesData.flatMap(r => r.serviceArea).filter((v, i, a) => a.indexOf(v) === i).sort(),
+    // languages: resourcesData.flatMap(r => r.languages).filter((v, i, a) => a.indexOf(v) === i).sort(),
+    // accessibility: ['Wheelchair-accessible', 'Parking', 'Restrooms', 'Sign language'],
   }), []);
 
   const filteredResources = useMemo(() => {

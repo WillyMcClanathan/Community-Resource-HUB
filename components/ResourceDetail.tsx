@@ -14,7 +14,6 @@ interface Resource {
   description: string;
   address: string;
   city: string;
-  serviceArea: string[];
   hours: string;
   contact: {
     phone: string;
@@ -23,8 +22,9 @@ interface Resource {
   };
   cost: string;
   eligibility?: string;
-  languages: string[];
-  accessibility: string[];
+  languages?: string[];
+  accessibility?: string[];
+  serviceArea?: string[];
   [key: string]: any;
 }
 
@@ -165,31 +165,34 @@ export function ResourceDetail({ resource }: ResourceDetailProps) {
               <p className="text-sm">{resource.eligibility}</p>
             </div> */}
 
-            <div>
+            {/* TODO: Service Area temporarily disabled; re-enable after verification pass */}
+            {/* <div>
               <h3 className="font-semibold flex items-center gap-2 mb-2">
                 <MapPin className="h-5 w-5 text-primary" />
                 Service Area
               </h3>
               <div className="flex flex-wrap gap-2">
-                {resource.serviceArea.map((area) => (
+                {resource.serviceArea?.map((area) => (
                   <Badge key={area} category={area} />
                 ))}
               </div>
-            </div>
+            </div> */}
 
-            <div>
+            {/* TODO: Languages temporarily disabled; re-enable after verification pass */}
+            {/* <div>
               <h3 className="font-semibold flex items-center gap-2 mb-2">
                 <Languages className="h-5 w-5 text-primary" />
                 Languages
               </h3>
               <div className="flex flex-wrap gap-2">
-                {resource.languages.map((language) => (
+                {resource.languages?.map((language) => (
                   <Badge key={language} category={language} />
                 ))}
               </div>
-            </div>
+            </div> */}
 
-            {resource.accessibility && resource.accessibility.length > 0 && (
+            {/* TODO: Accessibility temporarily disabled; re-enable after verification pass */}
+            {/* {resource.accessibility && resource.accessibility.length > 0 && (
               <div>
                 <h3 className="font-semibold flex items-center gap-2 mb-2">
                   <Accessibility className="h-5 w-5 text-primary" />
@@ -201,7 +204,7 @@ export function ResourceDetail({ resource }: ResourceDetailProps) {
                   ))}
                 </ul>
               </div>
-            )}
+            )} */}
           </div>
 
           <div className="border-t pt-6">

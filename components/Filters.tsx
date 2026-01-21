@@ -16,9 +16,9 @@ interface FiltersProps {
   availableOptions: {
     categories: string[];
     cities: string[];
-    serviceAreas: string[];
-    languages: string[];
-    accessibility: string[];
+    serviceAreas?: string[];
+    languages?: string[];
+    accessibility?: string[];
   };
 }
 
@@ -44,8 +44,6 @@ export function Filters({ filters, onChange, availableOptions }: FiltersProps) {
     (filters.categories?.length || 0) +
     (filters.cities?.length || 0) +
     (filters.serviceAreas?.length || 0) +
-    (filters.languages?.length || 0) +
-    (filters.accessibility?.length || 0) +
     (filters.openNow ? 1 : 0);
 
   return (
@@ -168,7 +166,8 @@ export function Filters({ filters, onChange, availableOptions }: FiltersProps) {
 
             <Separator />
 
-            <div>
+            {/* TODO: Languages filter temporarily disabled; re-enable after verification pass */}
+            {/* <div>
               <div className="flex items-center justify-between mb-3">
                 <h3 className="font-semibold">Languages</h3>
                 {filters.languages && filters.languages.length > 0 && (
@@ -183,7 +182,7 @@ export function Filters({ filters, onChange, availableOptions }: FiltersProps) {
                 )}
               </div>
               <div className="space-y-2">
-                {availableOptions.languages.slice(0, 10).map((language) => (
+                {availableOptions.languages?.slice(0, 10).map((language) => (
                   <div key={language} className="flex items-center space-x-2">
                     <Checkbox
                       id={`language-${language}`}
@@ -199,7 +198,7 @@ export function Filters({ filters, onChange, availableOptions }: FiltersProps) {
                   </div>
                 ))}
               </div>
-            </div>
+            </div> */}
 
             <Separator />
 
