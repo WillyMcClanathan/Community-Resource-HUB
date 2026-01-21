@@ -14,7 +14,7 @@ interface Resource {
   description: string;
   address: string;
   city: string;
-  hours: string;
+  hours?: string;
   contact: {
     phone: string;
     email: string;
@@ -88,13 +88,15 @@ export function ResourceDetail({ resource }: ResourceDetailProps) {
                 <p className="text-sm text-muted-foreground">{resource.city}</p>
               </div>
 
-              <div>
-                <h3 className="font-semibold flex items-center gap-2 mb-2">
-                  <Clock className="h-5 w-5 text-primary" />
-                  Hours
-                </h3>
-                <p className="text-sm">{resource.hours}</p>
-              </div>
+              {resource.hours && (
+                <div>
+                  <h3 className="font-semibold flex items-center gap-2 mb-2">
+                    <Clock className="h-5 w-5 text-primary" />
+                    Hours
+                  </h3>
+                  <p className="text-sm">{resource.hours}</p>
+                </div>
+              )}
 
               <div>
                 <h3 className="font-semibold flex items-center gap-2 mb-2">

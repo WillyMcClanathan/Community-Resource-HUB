@@ -61,8 +61,11 @@ export function generateResourceSchema(resource: any) {
     email: resource.contact.email,
     url: resource.contact.website,
     priceRange: resource.cost,
-    openingHours: resource.hours,
   };
+
+  if (resource.hours) {
+    schema.openingHours = resource.hours;
+  }
 
   // TODO: Service Area and Accessibility temporarily disabled; re-enable after verification pass
   // if (resource.serviceArea && resource.serviceArea.length > 0) {
