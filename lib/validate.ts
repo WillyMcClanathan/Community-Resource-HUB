@@ -10,7 +10,6 @@ export interface SubmissionData {
   address: string;
   city: string;
   serviceArea: string[];
-  hours: string;
   phone: string;
   email: string;
   website: string;
@@ -83,10 +82,6 @@ export function validateSubmission(data: SubmissionData): ValidationResult {
 
   if (!data.serviceArea || data.serviceArea.length === 0) {
     errors.serviceArea = 'Please select at least one service area';
-  }
-
-  if (!data.hours || data.hours.trim().length < 3) {
-    errors.hours = 'Please provide hours of operation';
   }
 
   if (data.phone && !validatePhone(data.phone)) {

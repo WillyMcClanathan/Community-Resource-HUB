@@ -63,10 +63,6 @@ export function generateResourceSchema(resource: any) {
     priceRange: resource.cost,
   };
 
-  if (resource.hours) {
-    schema.openingHours = resource.hours;
-  }
-
   // TODO: Service Area and Accessibility temporarily disabled; re-enable after verification pass
   // if (resource.serviceArea && resource.serviceArea.length > 0) {
   //   schema.areaServed = resource.serviceArea.map((area: string) => ({

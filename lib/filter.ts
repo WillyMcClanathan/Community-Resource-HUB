@@ -17,7 +17,6 @@ export interface Resource {
   cost: string;
   languages: string[];
   accessibility: string[];
-  hours: string;
   [key: string]: any;
 }
 
@@ -85,77 +84,8 @@ export function applyFilters(
       }
     }
 
-    if (filters.openNow === true) {
-      if (!isOpenNow(resource.hours)) {
-        return false;
-      }
-    }
-
     return true;
   });
-}
-
-export function isOpenNow(hoursString: string): boolean {
-  if (!hoursString || hoursString.toLowerCase().includes('24/7')) {
-    return true;
-  }
-
-  const now = new Date();
-  const timeZone = 'America/Los_Angeles';
-  const localTime = new Date(now.toLocaleString('en-US', { timeZone }));
-
-  const dayOfWeek = localTime.getDay();
-  const currentHour = localTime.getHours();
-  const currentMinute = localTime.getMinutes();
-  const currentTimeMinutes = currentHour * 60 + currentMinute;
-
-  const dayNames = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-  const currentDay = dayNames[dayOfWeek];
-
-  const dayPattern = new RegExp(`${currentDay}[^\\d]*(\\d{1,2})(?::(\\d{2}))?(am|pm)?\\s*[-–—]\\s*(\\d{1,2})(?::(\\d{2}))?(am|pm)?`, 'i');
-  const rangePattern = /([A-Za-z]{3})\s*[-–—]\s*([A-Za-z]{3})[^\d]*(\\d{1,2})(?::(\\d{2}))?(am|pm)?\\s*[-–—]\\s*(\\d{1,2})(?::(\\d{2}))?(am|pm)?/gi;
-
-  let match = dayPattern.exec(hoursString);
-  if (match) {
-    const openTime = parseTime(match[1], match[2] || '0', match[3]);
-    const closeTime = parseTime(match[4], match[5] || '0', match[6]);
-    return currentTimeMinutes >= openTime && currentTimeMinutes <= closeTime;
-  }
-
-  let rangeMatch;
-  while ((rangeMatch = rangePattern.exec(hoursString)) !== null) {
-    const startDay = rangeMatch[1];
-    const endDay = rangeMatch[2];
-    const startDayIndex = dayNames.indexOf(startDay);
-    const endDayIndex = dayNames.indexOf(endDay);
-
-    if (startDayIndex !== -1 && endDayIndex !== -1) {
-      const isInRange = startDayIndex <= endDayIndex
-        ? dayOfWeek >= startDayIndex && dayOfWeek <= endDayIndex
-        : dayOfWeek >= startDayIndex || dayOfWeek <= endDayIndex;
-
-      if (isInRange) {
-        const openTime = parseTime(rangeMatch[3], rangeMatch[4] || '0', rangeMatch[5]);
-        const closeTime = parseTime(rangeMatch[6], rangeMatch[7] || '0', rangeMatch[8]);
-        return currentTimeMinutes >= openTime && currentTimeMinutes <= closeTime;
-      }
-    }
-  }
-
-  return false;
-}
-
-function parseTime(hour: string, minute: string, period?: string): number {
-  let h = parseInt(hour, 10);
-  const m = parseInt(minute, 10);
-
-  if (period) {
-    const isPM = period.toLowerCase() === 'pm';
-    if (isPM && h !== 12) h += 12;
-    if (!isPM && h === 12) h = 0;
-  }
-
-  return h * 60 + m;
 }
 
 export function sortResources(

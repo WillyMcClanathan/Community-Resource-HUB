@@ -30,7 +30,6 @@ export default function SubmitPage() {
     address: '',
     city: '',
     serviceArea: [],
-    hours: '',
     phone: '',
     email: '',
     website: '',
@@ -231,7 +230,7 @@ export default function SubmitPage() {
 
           <Card>
             <CardHeader>
-              <CardTitle>Location & Hours</CardTitle>
+              <CardTitle>Location</CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
               <div>
@@ -290,23 +289,6 @@ export default function SubmitPage() {
                 {errors.serviceArea && (
                   <p className="text-sm text-red-500 mt-1" role="alert">
                     {errors.serviceArea}
-                  </p>
-                )}
-              </div>
-
-              <div>
-                <Label htmlFor="hours">
-                  Hours of Operation <span className="text-red-500">*</span>
-                </Label>
-                <Input
-                  id="hours"
-                  value={formData.hours}
-                  onChange={(e) => handleChange('hours', e.target.value)}
-                  placeholder="Mon-Fri 9am-5pm"
-                />
-                {errors.hours && (
-                  <p className="text-sm text-red-500 mt-1" role="alert">
-                    {errors.hours}
                   </p>
                 )}
               </div>

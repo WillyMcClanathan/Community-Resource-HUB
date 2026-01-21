@@ -9,7 +9,6 @@
     "address": "6004 200th St SW, Lynnwood, WA 98036",
     "city": "Lynnwood",
     "serviceArea": ["Mountlake Terrace", "Lynnwood", "Edmonds", "Brier"],
-    "hours": "Mon 10am–6pm, Wed 10am–6pm, Fri 10am–2pm",
     "contact": {
       "phone": "(425) 609-4000",
       "email": "info@verdanthealth.org",
@@ -32,7 +31,6 @@
     "address": "7100 Hardeson Rd, Everett, WA 98203",
     "city": "Everett",
     "serviceArea": ["All of Snohomish County"],
-    "hours": "Mon–Fri 8am–5pm",
     "contact": {
       "phone": "(425) 348-7233",
       "email": "customerservice@commtrans.org",
@@ -55,7 +53,6 @@
     "address": "20420 68th Ave W, Lynnwood, WA 98036",
     "city": "Lynnwood",
     "serviceArea": ["Mountlake Terrace", "Lynnwood", "Edmonds", "Woodway"],
-    "hours": "Mon–Thu 9am–7pm, Fri 9am–5pm",
     "contact": {
       "phone": "(425) 431-7200",
       "email": "frc@edmonds.wednet.edu",
@@ -78,7 +75,6 @@
     "address": "Confidential location (call for address)",
     "city": "Everett",
     "serviceArea": ["All of Snohomish County"],
-    "hours": "24/7 hotline",
     "contact": {
       "phone": "(425) 252-2873",
       "email": "help@ywcaworks.org",
@@ -101,7 +97,6 @@
     "address": "5303 228th St SW, Mountlake Terrace, WA 98043",
     "city": "Mountlake Terrace",
     "serviceArea": ["Mountlake Terrace", "Brier"],
-    "hours": "Mon–Fri 9am–4pm",
     "contact": {
       "phone": "(425) 776-9173",
       "email": "recreation@cityofmlt.com",
@@ -124,7 +119,6 @@
     "address": "21512 52nd Ave W, Mountlake Terrace, WA 98043",
     "city": "Mountlake Terrace",
     "serviceArea": ["Mountlake Terrace", "Lynnwood", "Edmonds"],
-    "hours": "Mon–Fri 8am–6pm, Sat 9am–1pm",
     "contact": {
       "phone": "(425) 775-6001",
       "email": "info@healthpointchc.org",
@@ -147,7 +141,6 @@
     "address": "23300 58th Ave W, Mountlake Terrace, WA 98043",
     "city": "Mountlake Terrace",
     "serviceArea": ["Mountlake Terrace"],
-    "hours": "Mon–Thu 9am–8pm, Fri 10am–6pm, Sat 10am–6pm, Sun 1pm–5pm",
     "contact": {
       "phone": "(425) 776-8722",
       "email": "mlt@sno-isle.org",
@@ -170,7 +163,6 @@
     "address": "615 2nd Ave, Suite 400, Seattle, WA 98104",
     "city": "Seattle",
     "serviceArea": ["All of Western Washington"],
-    "hours": "Mon–Fri 9am–5pm (by appointment)",
     "contact": {
       "phone": "(206) 587-4009",
       "email": "nwirp@nwirp.org",
@@ -193,7 +185,6 @@
     "address": "6420 220th St SW, Mountlake Terrace, WA 98043",
     "city": "Mountlake Terrace",
     "serviceArea": ["Mountlake Terrace", "Lynnwood"],
-    "hours": "Mon–Fri 3pm–7pm, School breaks 8am–5pm",
     "contact": {
       "phone": "(425) 670-7880",
       "email": "info@bgcsnohomish.org",
@@ -216,7 +207,6 @@
     "address": "14812 Main St, Bellevue, WA 98007",
     "city": "Bellevue",
     "serviceArea": ["North and East King County", "South Snohomish County"],
-    "hours": "Mon–Fri 9am–4pm",
     "contact": {
       "phone": "(425) 889-7880",
       "email": "info@hopelink.org",
@@ -239,7 +229,6 @@
     "address": "811 1st Ave, Suite 490, Seattle, WA 98104",
     "city": "Seattle",
     "serviceArea": ["All of Western Washington"],
-    "hours": "Mon–Fri 9am–5pm",
     "contact": {
       "phone": "(206) 441-3424",
       "email": "info@voaww.org",
@@ -262,7 +251,6 @@
     "address": "Phone service only",
     "city": "Snohomish County",
     "serviceArea": ["All of Snohomish County"],
-    "hours": "24/7",
     "contact": {
       "phone": "(425) 258-4357",
       "email": "crisis@snoco.org",

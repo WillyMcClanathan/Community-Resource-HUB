@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Phone, Mail, ExternalLink, MapPin, Clock, DollarSign, Users, Languages, Accessibility, CircleAlert as AlertCircle } from 'lucide-react';
+import { Phone, Mail, ExternalLink, MapPin, DollarSign, Users, Languages, Accessibility, CircleAlert as AlertCircle } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from './Badge';
@@ -14,7 +14,6 @@ interface Resource {
   description: string;
   address: string;
   city: string;
-  hours?: string;
   contact: {
     phone: string;
     email: string;
@@ -87,16 +86,6 @@ export function ResourceDetail({ resource }: ResourceDetailProps) {
                 <p className="text-sm">{resource.address}</p>
                 <p className="text-sm text-muted-foreground">{resource.city}</p>
               </div>
-
-              {resource.hours && (
-                <div>
-                  <h3 className="font-semibold flex items-center gap-2 mb-2">
-                    <Clock className="h-5 w-5 text-primary" />
-                    Hours
-                  </h3>
-                  <p className="text-sm">{resource.hours}</p>
-                </div>
-              )}
 
               <div>
                 <h3 className="font-semibold flex items-center gap-2 mb-2">

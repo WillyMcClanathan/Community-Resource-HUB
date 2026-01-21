@@ -37,7 +37,6 @@ export async function POST(request: Request) {
       address: sanitizeInput(body.address),
       city: sanitizeInput(body.city),
       serviceArea: body.serviceArea.map((area: string) => sanitizeInput(area)),
-      hours: sanitizeInput(body.hours),
       contact: {
         phone: sanitizeInput(body.phone),
         email: sanitizeInput(body.email),

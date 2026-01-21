@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { MapPin, Clock, DollarSign, Phone, ExternalLink } from 'lucide-react';
+import { MapPin, DollarSign, Phone, ExternalLink } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from './Badge';
 import categoriesData from '@/data/categories.json';
@@ -11,7 +11,6 @@ interface Resource {
   category: string;
   description: string;
   city: string;
-  hours: string;
   cost: string;
   contact: {
     phone: string;
@@ -57,11 +56,6 @@ export function ResourceCard({ resource }: ResourceCardProps) {
           <div className="flex items-center gap-2 text-muted-foreground">
             <MapPin className="h-4 w-4 shrink-0" />
             <span className="line-clamp-1">{resource.city}</span>
-          </div>
-
-          <div className="flex items-center gap-2 text-muted-foreground">
-            <Clock className="h-4 w-4 shrink-0" />
-            <span className="line-clamp-1">{resource.hours}</span>
           </div>
 
           <div className="flex items-center gap-2 text-muted-foreground">
