@@ -1,22 +1,22 @@
 [
   {
     "id": "fd3a1c2e-8b4d-4f5e-9a1b-2c3d4e5f6a7b",
-    "name": "Verdant Health Commission Food Bank",
-    "slug": "verdant-health-commission-food-bank",
-    "category": "food-essentials",
-    "tags": ["food", "families", "seniors", "emergency"],
-    "description": "Free groceries and fresh produce for families and individuals in need. No appointment needed. Serves all residents of South Snohomish County.",
-    "address": "6004 200th St SW, Lynnwood, WA 98036",
+    "name": "Verdant Health Commission",
+    "slug": "verdant-health-commission",
+    "category": "health-mental",
+    "tags": ["health", "wellness", "preventive-care", "community-health"],
+    "description": "Public hospital district serving South Snohomish County that funds and operates community health programs, wellness services, and preventive care initiatives. Supports clinics, health education, and nonprofit partners focused on improving community health.",
+    "address": "4710 196th St SW, Lynnwood, WA 98036",
     "city": "Lynnwood",
     "serviceArea": ["Mountlake Terrace", "Lynnwood", "Edmonds", "Brier"],
-    "hours": "Mon 10am–6pm, Wed 10am–6pm, Fri 10am–2pm",
+    "hours": "Mon–Fri 8am–4pm",
     "contact": {
-      "phone": "(425) 609-4000",
+      "phone": "(425) 582-8600",
       "email": "info@verdanthealth.org",
       "website": "https://verdanthealth.org"
     },
     "accessibility": ["Wheelchair-accessible entrance", "Accessible parking"],
-    "eligibility": "Open to all residents",
+    "eligibility": "Residents of South Snohomish County",
     "cost": "Free",
     "languages": ["English", "Spanish", "Russian", "Korean"],
     "featured": true
