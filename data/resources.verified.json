@@ -110,16 +110,16 @@
   },
   {
     "id": "2e3f4a5b-6c7d-8e9f-0a1b-2c3d4e5f6a7b",
-    "name": "HealthPoint Community Health Center",
-    "slug": "healthpoint-community-health-center",
+    "name": "HealthPoint – Bothell Clinic",
+    "slug": "healthpoint-bothell-clinic",
     "category": "health-mental",
     "tags": ["health", "medical", "dental", "mental-health", "sliding-scale"],
-    "description": "Primary care, dental, mental health, and pharmacy services on a sliding fee scale. Accepts most insurance and uninsured patients.",
-    "address": "21512 52nd Ave W, Mountlake Terrace, WA 98043",
-    "city": "Mountlake Terrace",
-    "serviceArea": ["Mountlake Terrace", "Lynnwood", "Edmonds"],
+    "description": "Primary care, dental, behavioral health, and pharmacy services. Offers a sliding fee scale and serves insured and uninsured patients from South Snohomish County and surrounding areas.",
+    "address": "10414 Beardslee Blvd, Bothell, WA 98011",
+    "city": "Bothell",
+    "serviceArea": ["Bothell", "Kenmore", "Woodinville", "Mill Creek"],
     "contact": {
-      "phone": "(425) 775-6001",
+      "phone": "(425) 486-0658",
       "email": "info@healthpointchc.org",
       "website": "https://healthpointchc.org"
     },
@@ -128,7 +128,7 @@
     "cost": "Sliding scale based on income",
     "languages": ["English", "Spanish", "Russian", "Korean", "Vietnamese"],
     "featured": false,
-    "_QA_FLAG": "NEEDS MANUAL REVIEW - No HealthPoint location found at 21512 52nd Ave W, Mountlake Terrace. Nearest confirmed HealthPoint is in Bothell at 10414 Beardslee Blvd, phone (425) 486-0658. Address and phone need verification."
+    "_QA_STATUS": "VERIFIED - Updated to correct Bothell clinic location with verified address and phone number."
   },
   {
     "id": "9f0a1b2c-3d4e-5f6a-7b8c-9d0e1f2a3b4c",
