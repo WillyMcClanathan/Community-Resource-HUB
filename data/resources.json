@@ -127,7 +127,7 @@
     "city": "Seattle",
     "contact": {
       "phone": "(206) 587-4009",
-      "email": "nwirp@nwirp.org",
+      "email": "seattlefrontdesk@nwirp.org",
       "website": "https://nwirp.org"
     },
     "cost": "Free or sliding scale",
@@ -140,14 +140,13 @@
     "category": "youth-family",
     "tags": ["youth", "after-school", "tutoring", "sports"],
     "description": "After-school programs, homework help, sports, arts, and mentorship for youth ages 6–18.",
-    "address": "6420 220th St SW, Mountlake Terrace, WA 98043",
-    "city": "Mountlake Terrace",
+    "address": "8223 Broadway, Suite 100, Everett, WA 98203",
+    "city": "Everett",
     "contact": {
-      "phone": "(425) 670-7880",
-      "email": "info@bgcsnohomish.org",
-      "website": "https://bgcsnohomish.org"
+      "phone": "(425) 258-2436",
+      "website": "https://bgcsc.org/"
     },
-    "cost": "Annual membership $60, scholarships available",
+    "cost": "Annual membership $60; scholarships available",
     "featured": false
   },
   {

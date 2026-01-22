@@ -163,7 +163,7 @@
     "serviceArea": ["All of Western Washington"],
     "contact": {
       "phone": "(206) 587-4009",
-      "email": "nwirp@nwirp.org",
+      "email": "seattlefrontdesk@nwirp.org",
       "website": "https://nwirp.org"
     },
     "accessibility": ["Wheelchair-accessible entrance"],
@@ -171,7 +171,7 @@
     "cost": "Free or sliding scale",
     "languages": ["English", "Spanish", "Russian", "Vietnamese", "Somali", "Arabic"],
     "featured": false,
-    "_QA_STATUS": "VERIFIED - Information appears accurate. Note: NWIRP operates offices by appointment. Seattle office hours are Mon-Fri 9:30am-12pm and 1pm-4pm."
+    "_QA_STATUS": "VERIFIED - Information appears accurate. Email updated to Seattle front desk contact. NWIRP operates offices by appointment. Seattle office hours are Mon-Fri 9:30am-12pm and 1pm-4pm."
   },
   {
     "id": "1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
@@ -180,20 +180,19 @@
     "category": "youth-family",
     "tags": ["youth", "after-school", "tutoring", "sports"],
     "description": "After-school programs, homework help, sports, arts, and mentorship for youth ages 6–18.",
-    "address": "6420 220th St SW, Mountlake Terrace, WA 98043",
-    "city": "Mountlake Terrace",
-    "serviceArea": ["Mountlake Terrace", "Lynnwood"],
+    "address": "8223 Broadway, Suite 100, Everett, WA 98203",
+    "city": "Everett",
+    "serviceArea": ["Snohomish County"],
     "contact": {
-      "phone": "(425) 670-7880",
-      "email": "info@bgcsnohomish.org",
-      "website": "https://bgcsc.org"
+      "phone": "(425) 258-2436",
+      "website": "https://bgcsc.org/"
     },
     "accessibility": ["Wheelchair-accessible entrance", "Accessible parking"],
     "eligibility": "Youth ages 6–18",
-    "cost": "Annual membership $60, scholarships available",
+    "cost": "Annual membership $60; scholarships available",
     "languages": ["English", "Spanish"],
     "featured": false,
-    "_QA_FLAG": "NEEDS MANUAL REVIEW - Could not verify specific location at 6420 220th St SW, Mountlake Terrace. Boys & Girls Clubs of Snohomish County has 27+ locations but this specific address did not appear in search results. Website updated to bgcsc.org. Address needs verification via bgcsc.org/find-a-club/"
+    "_QA_STATUS": "VERIFIED - Updated to organization headquarters in Everett. Address verified at 8223 Broadway, Suite 100. Phone and website confirmed. Email removed per verification standards. This is the central office serving Snohomish County; individual club locations available at bgcsc.org/find-a-club/"
   },
   {
     "id": "8d9e0f1a-2b3c-4d5e-6f7a-8b9c0d1e2f3a",
