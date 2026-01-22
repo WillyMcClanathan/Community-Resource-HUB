@@ -72,15 +72,15 @@
     "slug": "recreation-pavilion-senior-center",
     "category": "seniors",
     "tags": ["seniors", "activities", "meals", "social"],
-    "description": "Daily activities, hot meals, fitness classes, and social programs for adults 55+. Drop-in welcome.",
+    "description": "Daily activities, fitness classes, and social programs for adults 55+. Drop-in welcome.",
     "address": "5303 228th St SW, Mountlake Terrace, WA 98043",
     "city": "Mountlake Terrace",
     "contact": {
       "phone": "(425) 776-9173",
-      "email": "recreation@cityofmlt.com",
+      "email": "mltrecreation@mltwa.gov",
       "website": "https://www.cityofmlt.com/385/Recreation-Pavilion"
     },
-    "cost": "Free or low-cost activities; lunch $5 suggested donation",
+    "cost": "Free or low-cost activities",
     "featured": false
   },
   {
