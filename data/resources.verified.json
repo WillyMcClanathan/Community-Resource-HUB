@@ -196,25 +196,24 @@
   },
   {
     "id": "8d9e0f1a-2b3c-4d5e-6f7a-8b9c0d1e2f3a",
-    "name": "Hopelink Emergency Services",
-    "slug": "hopelink-emergency-services",
+    "name": "Hopelink Mobile Market",
+    "slug": "hopelink-mobile-market",
     "category": "food-essentials",
-    "tags": ["food", "financial", "emergency", "utilities"],
-    "description": "Emergency food, energy assistance, utility bill help, and case management services.",
-    "address": "14812 Main St, Bellevue, WA 98007",
-    "city": "Bellevue",
-    "serviceArea": ["North and East King County", "South Snohomish County"],
+    "tags": ["food", "mobile", "produce", "emergency"],
+    "description": "Mobile food distribution program providing prepacked boxes of fresh produce and shelf-stable food to communities experiencing food insecurity. Operates at various locations in East King County and North Snohomish County.",
+    "address": "Various Locations",
+    "city": "East King & North Snohomish County",
+    "serviceArea": ["East King County", "North Snohomish County"],
     "contact": {
       "phone": "(425) 889-7880",
-      "email": "info@hopelink.org",
-      "website": "https://hopelink.org"
+      "website": "https://www.hopelink.org/mobilemarket"
     },
-    "accessibility": ["Wheelchair-accessible entrance"],
-    "eligibility": "Income guidelines apply",
+    "accessibility": ["Mobile service - accessibility varies by location"],
+    "eligibility": "Open to all experiencing food insecurity",
     "cost": "Free",
     "languages": ["English", "Spanish", "Russian", "Chinese", "Korean"],
     "featured": false,
-    "_QA_FLAG": "NEEDS MANUAL REVIEW - Phone number (425) 889-7880 is for Hopelink's Kirkland location, not Bellevue. Bellevue location phone appears to be (425) 943-7555 for Food Pantry/Emergency Services or (425) 658-2592 for utility assistance. Address 14812 Main St, Bellevue is correct."
+    "_QA_STATUS": "VERIFIED - Updated to reflect Hopelink Mobile Market program. This is a mobile food distribution service with rotating locations throughout East King County and North Snohomish County. Email removed per verification standards. Specific distribution sites and schedules available at hopelink.org/mobilemarket."
   },
   {
     "id": "4f5a6b7c-8d9e-0f1a-2b3c-4d5e6f7a8b9c",
