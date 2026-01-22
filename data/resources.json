@@ -102,17 +102,16 @@
   },
   {
     "id": "9f0a1b2c-3d4e-5f6a-7b8c-9d0e1f2a3b4c",
-    "name": "Edmonds Library - MLT Branch",
-    "slug": "edmonds-library-mlt-branch",
+    "name": "Mountlake Terrace Library (Sno-Isle Libraries)",
+    "slug": "mountlake-terrace-library",
     "category": "education-esl",
     "tags": ["education", "library", "computers", "tutoring", "esl"],
-    "description": "Free library services, computer access, WiFi, ESL conversation groups, homework help, and literacy programs.",
-    "address": "23600 58th Ave W, Mountlake Terrace, WA 98043",
+    "description": "Public library offering free library services, computer access, WiFi, ESL conversation groups, homework help, and literacy programs.",
+    "address": "23300 58th Ave W, Mountlake Terrace, WA 98043",
     "city": "Mountlake Terrace",
     "contact": {
       "phone": "(425) 776-8722",
-      "email": "mlt@sno-isle.org",
-      "website": "https://sno-isle.org"
+      "website": "https://www.sno-isle.org"
     },
     "cost": "Free",
     "featured": false

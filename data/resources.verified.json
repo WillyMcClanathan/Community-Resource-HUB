@@ -132,25 +132,24 @@
   },
   {
     "id": "9f0a1b2c-3d4e-5f6a-7b8c-9d0e1f2a3b4c",
-    "name": "Mountlake Terrace Library",
-    "slug": "edmonds-library-mlt-branch",
+    "name": "Mountlake Terrace Library (Sno-Isle Libraries)",
+    "slug": "mountlake-terrace-library",
     "category": "education-esl",
     "tags": ["education", "library", "computers", "tutoring", "esl"],
-    "description": "Free library services, computer access, WiFi, ESL conversation groups, homework help, and literacy programs.",
+    "description": "Public library offering free library services, computer access, WiFi, ESL conversation groups, homework help, and literacy programs.",
     "address": "23300 58th Ave W, Mountlake Terrace, WA 98043",
     "city": "Mountlake Terrace",
     "serviceArea": ["Mountlake Terrace"],
     "contact": {
       "phone": "(425) 776-8722",
-      "email": "mlt@sno-isle.org",
-      "website": "https://www.sno-isle.org/locations/mountlake-terrace/"
+      "website": "https://www.sno-isle.org"
     },
     "accessibility": ["Wheelchair-accessible entrance", "Accessible parking", "Accessible restrooms", "Assistive technology"],
     "eligibility": "Open to all",
     "cost": "Free",
     "languages": ["English", "Spanish", "Russian"],
     "featured": false,
-    "_QA_STATUS": "CORRECTED - Name changed to 'Mountlake Terrace Library' (part of Sno-Isle Libraries system, not Edmonds Library). Address corrected from 23600 to 23300 58th Ave W. Hours updated to match official website. Website updated to specific library page."
+    "_QA_STATUS": "VERIFIED - Updated to official Mountlake Terrace Library (Sno-Isle Libraries). Address verified at 23300 58th Ave W. Email field removed per verification standards. Website updated to main Sno-Isle site."
   },
   {
     "id": "5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e0f",
