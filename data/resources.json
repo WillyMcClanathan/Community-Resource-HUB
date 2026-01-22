@@ -184,16 +184,15 @@
   },
   {
     "id": "0e1f2a3b-4c5d-6e7f-8a9b-0c1d2e3f4a5b",
-    "name": "Snohomish County Crisis Line",
+    "name": "Snohomish County Crisis Services",
     "slug": "snohomish-county-crisis-line",
     "category": "health-mental",
     "tags": ["mental-health", "crisis", "suicide-prevention", "24-7"],
-    "description": "24/7 mental health crisis support, suicide prevention, and referrals to local resources. Trained counselors available immediately.",
+    "description": "24/7 mental health and substance use crisis support, suicide prevention, and referrals to local resources. Trained behavioral health professionals available by phone or text.",
     "address": "Phone service only",
     "city": "Snohomish County",
     "contact": {
-      "phone": "(425) 258-4357",
-      "email": "crisis@snoco.org",
+      "phone": "(800) 584-3578",
       "website": "https://snohomishcountywa.gov/crisis"
     },
     "cost": "Free",
