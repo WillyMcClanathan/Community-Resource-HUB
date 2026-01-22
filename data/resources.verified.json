@@ -206,7 +206,7 @@
     "serviceArea": ["East King County", "North Snohomish County"],
     "contact": {
       "phone": "(425) 889-7880",
-      "website": "https://www.hopelink.org/mobilemarket"
+      "website": "https://www.hopelink.org/locations/mobile-market/"
     },
     "accessibility": ["Mobile service - accessibility varies by location"],
     "eligibility": "Open to all experiencing food insecurity",
@@ -221,12 +221,12 @@
     "slug": "volunteers-of-america-western-washington",
     "category": "housing",
     "tags": ["housing", "veterans", "families", "homeless"],
-    "description": "Transitional housing, permanent supportive housing, and rental assistance for veterans and families experiencing homelessness.",
-    "address": "811 1st Ave, Suite 490, Seattle, WA 98104",
-    "city": "Seattle",
+    "description": "Transitional housing, permanent supportive housing, and rental assistance programs for veterans and families experiencing homelessness.",
+    "address": "2802 Broadway, Everett, WA 98201",
+    "city": "Everett",
     "serviceArea": ["All of Western Washington"],
     "contact": {
-      "phone": "(206) 441-3424",
+      "phone": "(425) 259-3191",
       "email": "info@voaww.org",
       "website": "https://voaww.org"
     },
@@ -235,7 +235,7 @@
     "cost": "Based on program",
     "languages": ["English", "Spanish"],
     "featured": false,
-    "_QA_FLAG": "NEEDS MANUAL REVIEW - Could not verify address 811 1st Ave, Suite 490, Seattle. The Colman Building (811 1st Ave) is a commercial office building with no apparent connection to VOA in search results. VOA main office appears to be in Everett at 2802 Broadway, Everett, WA 98201. Address and phone need verification."
+    "_QA_STATUS": "VERIFIED - Updated to main office in Everett. Address verified at 2802 Broadway, Everett, WA 98201. Phone (425) 259-3191 confirmed as main office number. Email and website confirmed. Previous Seattle address was incorrect."
   },
   {
     "id": "0e1f2a3b-4c5d-6e7f-8a9b-0c1d2e3f4a5b",

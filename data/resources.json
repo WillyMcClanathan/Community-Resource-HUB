@@ -160,7 +160,7 @@
     "city": "East King & North Snohomish County",
     "contact": {
       "phone": "(425) 889-7880",
-      "website": "https://www.hopelink.org/mobilemarket"
+      "website": "https://www.hopelink.org/locations/mobile-market/"
     },
     "cost": "Free",
     "featured": false
@@ -171,11 +171,11 @@
     "slug": "volunteers-of-america-western-washington",
     "category": "housing",
     "tags": ["housing", "veterans", "families", "homeless"],
-    "description": "Transitional housing, permanent supportive housing, and rental assistance for veterans and families experiencing homelessness.",
-    "address": "811 1st Ave, Suite 490, Seattle, WA 98104",
-    "city": "Seattle",
+    "description": "Transitional housing, permanent supportive housing, and rental assistance programs for veterans and families experiencing homelessness.",
+    "address": "2802 Broadway, Everett, WA 98201",
+    "city": "Everett",
     "contact": {
-      "phone": "(206) 441-3424",
+      "phone": "(425) 259-3191",
       "email": "info@voaww.org",
       "website": "https://voaww.org"
     },
