@@ -21,27 +21,36 @@ export function SearchBar({
 }: SearchBarProps) {
   return (
     <div className={`relative ${className}`}>
-      <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-      <Input
-        type="search"
-        value={value}
-        onChange={(e) => onChange(e.target.value)}
-        placeholder={placeholder}
-        className="pl-10 pr-10"
-        data-search-input
-        aria-label="Search resources"
-      />
-      {value && onClear && (
-        <Button
-          variant="ghost"
-          size="icon"
-          className="absolute right-1 top-1/2 transform -translate-y-1/2 h-7 w-7"
-          onClick={onClear}
-          aria-label="Clear search"
-        >
-          <X className="h-4 w-4" />
-        </Button>
-      )}
+      <div className="relative">
+        <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+        <Input
+          type="search"
+          value={value}
+          onChange={(e) => onChange(e.target.value)}
+          placeholder={placeholder}
+          className="pl-10 pr-10 opacity-50 cursor-not-allowed"
+          data-search-input
+          aria-label="Search resources"
+          disabled
+        />
+        {value && onClear && (
+          <Button
+            variant="ghost"
+            size="icon"
+            className="absolute right-1 top-1/2 transform -translate-y-1/2 h-7 w-7"
+            onClick={onClear}
+            aria-label="Clear search"
+            disabled
+          >
+            <X className="h-4 w-4" />
+          </Button>
+        )}
+      </div>
+      <div className="mt-2 text-center">
+        <span className="inline-flex items-center px-3 py-1 text-sm font-medium rounded-full bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200">
+          Search Coming Soon
+        </span>
+      </div>
     </div>
   );
 }

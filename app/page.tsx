@@ -24,11 +24,8 @@ export default function HomePage() {
   const featuredResources = resourcesData.filter((r) => r.featured).slice(0, 3);
 
   const handleSearch = () => {
-    if (searchQuery.trim()) {
-      router.push(`/resources?q=${encodeURIComponent(searchQuery)}`);
-    } else {
-      router.push('/resources');
-    }
+    // Search temporarily disabled - just navigate to resources page
+    router.push('/resources');
   };
 
   const handleKeyPress = (e: React.KeyboardEvent) => {
@@ -67,7 +64,7 @@ export default function HomePage() {
               placeholder="Search for food banks, health clinics, housing..."
               className="text-lg"
             />
-            <Button size="lg" className="mt-4 w-full sm:w-auto" onClick={handleSearch}>
+            <Button size="lg" className="mt-4 w-full sm:w-auto" onClick={handleSearch} disabled>
               <Search className="h-5 w-5 mr-2" />
               Search Resources
             </Button>

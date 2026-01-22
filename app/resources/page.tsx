@@ -28,10 +28,11 @@ export default function ResourcesPage() {
 
   useEffect(() => {
     setMounted(true);
-    const q = searchParams.get('q') || '';
+    // Search temporarily disabled
+    // const q = searchParams.get('q') || '';
     const categories = searchParams.get('categories')?.split(',').filter(Boolean);
 
-    setSearchQuery(q);
+    // setSearchQuery(q);
     if (categories && categories.length > 0) {
       setFilters({ categories });
     }
@@ -49,15 +50,16 @@ export default function ResourcesPage() {
   const filteredResources = useMemo(() => {
     let results: any[] = [...resourcesData];
 
-    if (searchQuery) {
-      results = searchResources(results as any, searchQuery) as any;
-    }
+    // Search temporarily disabled
+    // if (searchQuery) {
+    //   results = searchResources(results as any, searchQuery) as any;
+    // }
 
     results = applyFilters(results as any, filters) as any;
     results = sortResources(results as any, sortBy) as any;
 
     return results;
-  }, [searchQuery, filters, sortBy]);
+  }, [filters, sortBy]);
 
   const totalPages = Math.ceil(filteredResources.length / ITEMS_PER_PAGE);
   const paginatedResources = filteredResources.slice(
@@ -67,14 +69,15 @@ export default function ResourcesPage() {
 
   useEffect(() => {
     setCurrentPage(1);
-  }, [searchQuery, filters, sortBy]);
+  }, [filters, sortBy]);
 
-  const handleSearchChange = (value: string) => {
-    setSearchQuery(value);
-    const params = new URLSearchParams();
-    if (value) params.set('q', value);
-    router.push(`/resources?${params.toString()}`, { scroll: false });
-  };
+  // Search temporarily disabled
+  // const handleSearchChange = (value: string) => {
+  //   setSearchQuery(value);
+  //   const params = new URLSearchParams();
+  //   if (value) params.set('q', value);
+  //   router.push(`/resources?${params.toString()}`, { scroll: false });
+  // };
 
   if (!mounted) {
     return null;
@@ -91,9 +94,9 @@ export default function ResourcesPage() {
 
         <div className="space-y-4 mb-8">
           <SearchBar
-            value={searchQuery}
-            onChange={handleSearchChange}
-            onClear={() => handleSearchChange('')}
+            value=""
+            onChange={() => {}}
+            onClear={() => {}}
             placeholder="Search by name, category, city, or service..."
           />
 
