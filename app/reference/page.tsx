@@ -48,8 +48,6 @@ export default function ReferencePage() {
                       https://www.snohomish.211counts.org <ExternalLink className="h-3 w-3" />
                     </a>
                     <br />
-                    Accessed: September 2025
-                    <br />
                     Purpose: Category structure, service area definitions, resource types
                   </li>
                   <li>
@@ -60,8 +58,6 @@ export default function ReferencePage() {
                     <a href="https://www.verdanthealth.org" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline inline-flex items-center gap-1">
                       https://www.verdanthealth.org <ExternalLink className="h-3 w-3" />
                     </a>
-                    <br />
-                    Accessed: September 2025
                     <br />
                     Purpose: Sample food bank and health service information
                   </li>
@@ -74,8 +70,6 @@ export default function ReferencePage() {
                       https://www.communitytransit.org <ExternalLink className="h-3 w-3" />
                     </a>
                     <br />
-                    Accessed: September 2025
-                    <br />
                     Purpose: Transportation service structure and accessibility features
                   </li>
                   <li>
@@ -87,8 +81,6 @@ export default function ReferencePage() {
                       https://www.cityofmlt.com <ExternalLink className="h-3 w-3" />
                     </a>
                     <br />
-                    Accessed: September 2025
-                    <br />
                     Purpose: Local community resources and recreation programs
                   </li>
                   <li>
@@ -99,8 +91,6 @@ export default function ReferencePage() {
                     <a href="https://www.w3.org/WAI/WCAG21/quickref/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline inline-flex items-center gap-1">
                       https://www.w3.org/WAI/WCAG21/quickref/ <ExternalLink className="h-3 w-3" />
                     </a>
-                    <br />
-                    Accessed: September 2025
                     <br />
                     Purpose: Accessibility standards implementation
                   </li>
@@ -278,11 +268,11 @@ export default function ReferencePage() {
                   information was used.
                 </p>
                 <p className="text-sm text-muted-foreground mt-2">
-                  The 12 sample resources include: Verdant Health Commission Food Bank, Community Transit
-                  Access Program, Edmonds School District Family Resource Center, YWCA Domestic Violence
+                  The 12 sample resources include: Verdant Health Commission, Community Transit
+                  Access Program, Edmonds School District Family Resource Center, Snohomish County YWCA Domestic Violence
                   Services, Recreation Pavilion Senior Center, HealthPoint Community Health Center, Edmonds
-                  Library MLT Branch, Northwest Immigration Rights Project, Boys & Girls Clubs, Hopelink
-                  Emergency Services, Volunteers of America, and Snohomish County Crisis Line.
+                  Library - MLT Branch, Northwest Immigration Rights Project, Boys & Girls Clubs of Snohomish County, Hopelink
+                  Emergency Services, Volunteers of America Western Washington, and Snohomish County Crisis Line.
                 </p>
               </div>
 
@@ -294,21 +284,6 @@ export default function ReferencePage() {
                   educational purposes only.
                 </p>
               </div>
-            </CardContent>
-          </Card>
-
-          <Card className="border-2 border-primary/20">
-            <CardHeader>
-              <CardTitle className="flex items-center gap-2">
-                <FileText className="h-5 w-5 text-primary" />
-                Required Forms
-              </CardTitle>
-              <CardDescription>
-                TSA Webmaster Event compliance documentation (download PDFs)
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <p className="text-center text-muted-foreground">Coming soon!</p>
             </CardContent>
           </Card>
 

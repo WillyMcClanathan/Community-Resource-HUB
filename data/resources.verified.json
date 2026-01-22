@@ -72,12 +72,11 @@
     "category": "housing",
     "tags": ["emergency", "shelter", "safety", "families", "women"],
     "description": "Emergency shelter, legal advocacy, and support services for survivors of domestic violence. 24/7 crisis hotline available.",
-    "address": "Confidential location (call for address)",
-    "city": "Everett",
+    "address": "1118 Fifth Ave, Seattle, WA 98101",
+    "city": "Seattle",
     "serviceArea": ["All of Snohomish County"],
     "contact": {
-      "phone": "(425) 252-2873",
-      "email": "help@ywcaworks.org",
+      "phone": "(206) 461-4888",
       "website": "https://dvs-snoco.org"
     },
     "accessibility": ["Wheelchair-accessible facilities"],
@@ -85,7 +84,7 @@
     "cost": "Free",
     "languages": ["English", "Spanish"],
     "featured": false,
-    "_QA_STATUS": "CORRECTED - Name changed from 'YWCA' to 'Domestic Violence Services of Snohomish County' (DVS). The phone number 425-252-2873 belongs to DVS, not YWCA. Website updated to dvs-snoco.org. Email may need verification."
+    "_QA_STATUS": "CORRECTED - Name changed from 'YWCA' to 'Domestic Violence Services of Snohomish County' (DVS). Contact information updated. Website: dvs-snoco.org."
   },
   {
     "id": "7b8c9d0e-1f2a-3b4c-5d6e-7f8a9b0c1d2e",

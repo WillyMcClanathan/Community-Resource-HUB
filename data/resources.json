@@ -57,11 +57,10 @@
     "category": "housing",
     "tags": ["emergency", "shelter", "safety", "families", "women"],
     "description": "Emergency shelter, legal advocacy, and support services for survivors of domestic violence. 24/7 crisis hotline available.",
-    "address": "Confidential location (call for address)",
-    "city": "Everett",
+    "address": "1118 Fifth Ave, Seattle, WA 98101",
+    "city": "Seattle",
     "contact": {
-      "phone": "(425) 252-2873",
-      "email": "help@ywcaworks.org",
+      "phone": "(206) 461-4888",
       "website": "https://ywcaworks.org"
     },
     "cost": "Free",
